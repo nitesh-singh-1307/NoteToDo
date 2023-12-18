@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
+                    // navigation call
                     val navController = rememberNavController()
                     NavHost(
                         navController = navController,
