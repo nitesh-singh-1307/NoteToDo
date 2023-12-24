@@ -19,6 +19,6 @@ EXPOSE 8080
 
 # Command to run the application
 CMD ["./gradlew", "installDebug"]
-ENTRYPOINT ["./gradlew", "installDebug"]
+ENTRYPOINT ["./gradlew", "installdebug"]
 
 
